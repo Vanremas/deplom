@@ -1,0 +1,78 @@
+@media (max-width: 1560px) {
+    .item {
+        height: 470px;
+        width: 300px;
+        border-radius: 30px;
+    }
+    .skin-img {
+        width: 299px;
+        height: 470px;
+    }
+    .stats{
+        width: 301px;
+        height: 203px; 
+        margin: 19% 0 0 4px;
+    }
+    .item-skin{
+        font-size: 30px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .logo{
+        height: 105px;
+    }
+    .logo-div{
+        width: 26%;
+        margin: 7px 0 0 37%;
+
+    }
+    .otz{
+        font-size: 35px;
+        margin: 35px 0px 0px 5%
+    }
+    .faq{
+        font-size: 35px;
+        margin: 35px 34px 0 0;
+    }
+    .butt-aut-1 {
+        width: 130px;
+        height: 60px;
+        font-size: 27px;
+        border-radius: 25px;
+    }
+    .butt-aut-2 {
+        font-size: 27px;
+
+    }
+    .aut{
+        height: 56%;
+    margin: 10px 0 0 0;
+    width: 215px;
+    }
+    .items {
+        width: 93%;
+       
+        display: grid;
+        grid-template-columns: 309px 309px 309px 309px;
+        gap: 25px;
+        margin: 80px 0 0 60px;
+    }
+    .h-er{
+        height: 120px;
+    }
+    .bott{
+        height: 153px;
+    }
+    .zag {
+        position: relative;
+        font-size: 45px;
+        margin: 20px auto 0 auto;
+    }
+    .us-yes {
+        position: relative;
+        font-size: 30px;
+        margin: 1% auto 0 auto;
+        cursor: pointer;
+    }
+}

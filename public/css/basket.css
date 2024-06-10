@@ -1,0 +1,1022 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+
+.body{
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    color: white;
+    background-color: #7c5f61;
+}
+
+/* Шапка */
+.h-er{
+    font-size: 40px;
+width: 100%;    
+font-family: "Poiret One", sans-serif;
+height: 182px;
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+
+
+.logo-div{
+    margin: 25px 0 0 38%;
+    position: absolute;
+    width: 450px;
+}
+.logo{
+    margin-left: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.otz{
+    color: white;
+    float: left;
+    margin: 10% 0px 0px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.faq{
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin: 10% 14% 0 0;
+}
+
+.otz:hover{
+    
+    border-bottom: 1px solid white;
+}
+.logo:hover{
+    border: 1px solid white;
+}
+.faq:hover{
+    border-bottom: 1px solid white;
+}
+
+
+
+
+.aut{
+    float: right;
+    height: 75%;
+    margin: 25px 0 0 0;
+    width: 350px;
+    text-align: center;
+}
+.butt-aut-1 {
+    width: 160px;
+    height: 80px;
+    background: #5A4546;
+    color: white;
+    border: none;
+    font-size: 40px;
+    font-family: "Poiret One", sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.butt-aut-2{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 40px;
+    font-family: "Poiret One", sans-serif;
+    cursor: pointer;
+}
+.butt-aut-1:hover{
+
+   background: #7b6162 ;
+}
+
+.butt-aut-2:hover{
+
+    border-bottom: 1px solid white;
+}
+
+/* Шапка Конец */
+
+/* main */
+.str{
+    width: 100%;
+    z-index: -1;
+    min-height: 900px;
+    height: 100%;
+    padding: 0 0 5% 0;
+    margin: -49px 0 0 0px;
+}
+
+.categories{
+background: #5A4546;
+width: 97%;
+padding: 25px;
+margin: 100px 0 0 0;
+font-size: 40px;
+text-align: center;
+color: white;
+font-family: "Poiret One", sans-serif;
+display: inline-grid;
+grid-template-columns: auto auto auto auto;
+}
+
+.cat-r{
+cursor: pointer;
+color: white;
+
+}
+.cat-r:hover{
+border-bottom: 1px solid white;
+
+}
+
+.search {
+    width: 32%;
+    height: 40px;
+    background: #5A4546;
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 25px 0 0 35%;
+
+}
+
+
+
+.stats{
+    background: #5A4546;
+border-radius: 30px;
+opacity: 95%;;
+width: 370px;
+position: absolute;
+height: 300px;
+text-align: center;
+margin: 315px 0 0 4px;
+}
+
+.item-skin{
+
+    background: none;
+    border: none;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+
+
+/* Конец main */
+
+/* bottom */
+
+.bott{
+background-color: #5A4546;
+width: 100%;
+height: 240px;
+display: block;
+font-family: "Poiret One", sans-serif;
+color: white;
+text-align: center;
+margin: 0 0 0 0;
+}
+.zag{
+    position: absolute;
+    font-size: 64px;
+    margin: 20px 0 0 37%;
+}
+.us-yes{
+
+    position: absolute;
+    font-size: 40px;
+    margin: 6% 0 0 -13%;
+    cursor: pointer;
+
+}
+.us-yes:hover{
+border-bottom: 1px solid white;
+
+}
+/* Конец bottom */
+
+
+/* Корзина */
+.items {
+    width: 865px;
+    min-height: 310px;
+    height: 100%;
+    font-family: "Poiret One", sans-serif;
+    display: grid;
+    grid-template-columns: 864px;
+    gap: 18px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    height: 85px;
+    width: 864px;
+    color: white;
+    background-color: #5A4546;
+    font-family: "Poiret One", sans-serif;
+        border-radius: 10px;
+    
+}
+
+.skin-img{
+    border-radius: 10px;
+    /* border: 5px solid #5A4546; */
+    height: 65px;
+    width: 65px;
+    margin: 10px;
+    z-index: 0;
+    position: absolute;
+}
+.bask-h{
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;   
+     margin: 60px 0 0 0;
+}
+
+
+.p-price{
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    float: right;
+    margin: 4% 13% 0 0;
+}
+/* .p-del{
+    font-size: 24px;
+    color: red;
+    font-family: "Poiret One", sans-serif;
+cursor: pointer;    
+    
+} */
+
+.f-price{
+    min-width: 400px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    width: 400px;
+    padding: 10px;
+    margin: 18px 0 0 0%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 30px;
+    background-color: #5A4546;
+}
+.bod{
+    background-color: #7c5f61;
+    font-family: "Poiret One", sans-serif;
+}
+
+.bask-inf{
+    background-color: #5A4546;
+    width: 865px;
+    height: 40px;
+
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poiret One", sans-serif;
+}
+.inf-name{
+float: left;
+margin: 0 0 0 10%;
+}
+.inf-price{
+float: right;
+margin: 0 30% 0 0;
+}
+.none-bask{
+    width: 865px;
+    min-height: 310px;
+    background-color: #5A4546;
+    text-align: center;
+    color: white;
+}
+.nope{
+
+ 
+  
+
+    color: white;
+}
+.btn-bask{
+    background-color: #FED15C;
+    border: none;
+    font-family: "Poiret One", sans-serif;
+    padding: 12px;
+    margin: 7% 0 0 0;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 21px;
+}
+.btn-bask-z{
+    background-color: #FED15C;
+    border: none;
+    font-family: "Poiret One", sans-serif;
+    padding: 12px;
+    float: right;
+    margin: -6% 0 0 0;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 21px;
+}
+/* Конец Корзины */
+
+/* Подтверждение заказа */
+.h-ord{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 27%;
+    font-size: 50px;
+    font-family: "Poiret One", sans-serif;
+    margin-top: 4%;
+}
+.acc-ord{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poiret One", sans-serif;
+    background-color: #5A4546;
+    height: 365px;
+    width: 865px;
+    border-radius: 10px;
+   text-align: center;
+}
+.ri-ord{
+    text-align: center;
+    width: 300px;
+    font-family: "Poiret One", sans-serif;
+    font-size: 27px;
+    background-color: #7C5F61;
+    border: none;color: white;
+    padding: 10px 15px 0 15px;
+    border-radius: 15px;
+    margin: 30px 0 0 31%;
+    float: left;
+}
+.con-ord{
+
+    width: 300px;
+    float: right;
+    text-align: center;
+    font-size: 27px;
+    font-family: "Poiret One", sans-serif;
+    background-color: #7C5F61;
+    border: none;color: white;
+    border-radius: 15px;
+    padding: 10px 15px 0 15px;
+    margin: 18px 31% 0 0;
+}
+
+.ri-ord::placeholder{
+color: white; text-align: center;
+}
+
+.con-ord::placeholder{
+    color: white; text-align: center;
+}
+.f-price-ord{
+    color: #FED15C;
+    font-size: 27px;
+    width: 365px;
+    background: #7C5F61;
+    float: left;
+    margin: 2% 0 0 29%;
+    font-size: 24px;
+}
+.btn-bask-v{
+    background-color: #FED15C;
+    border: none;
+    font-family: "Poiret One", sans-serif;
+    padding: 12px;
+    float: right;
+    margin: 3% 38% 0 0;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 24px;
+}
+.p-name{
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    float: left;
+    margin: 4% 0 0 7%;
+}
+.pi-name{
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    float: left;
+    margin: 4% 0 0 11%;
+}
+.sbm-del{float: right;
+    font-size: 24px;
+    color: red;
+    font-family: "Poiret One", sans-serif;
+    background: none;
+    border: none;
+    margin: 4% 4% 0 0;
+    cursor: pointer;    
+}
+/* Конец Подтверждение заказа */
+
+/* ВХОД */
+.aut-f{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poiret One", sans-serif;
+    background-color: #5A4546;
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+    margin-top: 7%;
+   text-align: center;
+
+}
+.aut-h1{
+    color: white;
+    font-size: 45px;
+    margin: 0 auto 0 auto;
+}
+.aut-ent{
+    
+    color: white;
+    font-size: 45px;
+    margin: 0 auto 0 auto;
+}
+
+.aut-ord{
+    text-align: center;
+    width: 300px;
+    font-family: "Poiret One", sans-serif;
+    font-size: 30px;
+    background-color: #7C5F61;
+    border: none;
+    color: white;
+    padding: 10px 15px 0 15px;
+    border-radius: 15px;
+    margin: 25px 0 0 20%;
+    float: left;
+}
+.aut-ordz{
+
+    width: 300px;
+    float: right;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poiret One", sans-serif;
+    background-color: #7C5F61;
+    border: none;color: white;
+    border-radius: 15px;
+    padding: 10px 15px 0 15px;
+    margin: 25px 20% 0 0;
+}
+.aut-ord::placeholder{
+    color:white
+}
+.aut-ordz::placeholder{
+    color:white
+}
+.aut-fbut{
+    background-color: #FED15C;
+    border: none;
+    font-family: "Poiret One", sans-serif;
+    padding: 12px 0 12px 0px;
+    float: right;
+    width: 150px;
+    margin: 8% 38% 0 0;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 24px;
+}
+.aut-fbut-1{
+    background: none;
+    border: none;
+    font-family: "Poiret One", sans-serif;
+   color: white;
+    float: right;
+    width: 37%;
+    margin: 2% 33% 0 0;
+    cursor: pointer;
+    font-size: 21px;
+
+
+}
+
+
+/* REG */
+.aut-fbut-reg{
+    background-color: #FED15C;
+    border: none;
+    font-family: "Poiret One", sans-serif;
+    padding: 12px 0 12px 0px;
+    float: right;
+    width: 225px;
+    margin: 4% 31% 0 0;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 24px;
+    
+}
+/* КОНЕЦ ВХОДА */
+.err{
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    background: #FED15C;
+}
+.dele-baks{
+    margin: 4% 0 0 45%;
+    width: 10%;
+    color: red;
+    height: 5%;
+    background: #FED15C;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+
+
+/* Категории АДМИНКА */
+.itemscat {
+    width: 1100px;
+    min-height: 310px;
+    height: 100%;
+    font-family: "Poiret One", sans-serif;
+    display: grid;
+    grid-template-columns: 1100px;
+    gap: 18px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.itemcat {
+    height: 85px;
+    width: 1100px;
+    color: white;
+    background-color: #5A4546;
+    font-family: "Poiret One", sans-serif;
+        border-radius: 10px;
+    
+}
+.c-id{
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    float: left;
+    margin: 4% 0 0 5%;
+    width: 20px;
+}
+
+.c-name{
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    float: left;
+    margin: 4% 0 0 7%;
+    width: 260px;
+}
+.c-code{
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    float: left;
+    margin: 4% 0 0 8%;
+}
+
+.cbm-del{float: right;
+    font-size: 24px;
+    color: red;
+    font-family: "Poiret One", sans-serif;
+    background: none;
+    border: none;
+    margin: 4% 4% 0 0;
+    cursor: pointer;    
+}
+.cbm-red{float: right;
+    font-size: 24px;
+    color: #FED15C;
+    font-family: "Poiret One", sans-serif;
+    background: none;
+    border: none;
+    margin: 4% 4% 0 0;
+    cursor: pointer;    
+}
+.cbm-ope{float: right;
+    font-size: 24px;
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    background: none;
+    border: none;
+    margin: 4% 4% 0 0;
+    cursor: pointer;    
+}
+.add-cat{
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 2% auto 0 auto;
+    width: 185px;
+    border-radius: 10px;
+    background: #FED15C;
+    text-align: center;
+    padding: 10px;
+
+}
+.redcat-f{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poiret One", sans-serif;
+    background-color: #5A4546;
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+    margin-top: 7%;
+    text-align: center;
+}
+.redcat-h1{
+    color: white;
+    font-size: 45px;
+    width: 435px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.redcat-ord{
+    text-align: center;
+    width: 300px;
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    background-color: #7C5F61;
+    border: none;
+    color: white;
+    padding: 10px 15px 0 15px;
+    border-radius: 15px;
+    margin: 25px 0 0 20%;
+    float: left;
+}
+.redcat-ord::placeholder{
+    color: white;
+}
+
+.redcat-ordz{
+    width: 300px;
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poiret One", sans-serif;
+    background-color: #7C5F61;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px 0 15px;
+    margin: 25px 20% 0 0;
+
+}
+.redcat-ordz::placeholder{
+    color: white;
+}
+
+.cate-inf{
+    background-color: #5A4546;
+    width: 1100px;
+    height: 40px;
+
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poiret One", sans-serif;
+}
+.cate-id{
+    float: left;
+    margin: 0 0 0 5%;
+    border-right: 1px solid white;
+    padding: 0 6% 0 0px;
+    }
+    .cate-name{
+        float: left;
+    margin: 0 0 0 5%;
+    border-right: 1px solid white;
+    padding: 0 6% 0 0px;
+        }
+        .cate-code{
+            float: left;
+            margin: 0 0 0 10%;
+            border-right: 1px solid white;
+            padding: 0 10% 0 0px;
+            }
+        .cate-dey{
+            float: right;
+    margin: 0 14% 0 0;
+            }
+
+
+            /* АДМИНКА Редактирование ПРОДУКТОВ */
+.itemprods{
+    width: 1500px;
+    min-height: 310px;
+    height: 100%;
+    font-family: "Poiret One", sans-serif;
+    display: grid;
+    grid-template-columns: 1500px;
+    gap: 18px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.itemprod{
+
+    height: 85px;
+    width: 1500px;
+    color: white;
+    background-color: #5A4546;
+    font-family: "Poiret One", sans-serif;
+    border-radius: 10px;
+}
+.pr-id{
+    font-family: "Poiret One", sans-serif;
+    font-size: 20px;
+    float: left;
+    margin: 2% 0 0 5%;
+    width: 20px;
+}
+.pr-name{
+    font-family: "Poiret One", sans-serif;
+    font-size: 20px;
+    float: left;
+    margin: 2% 0 0 3%;
+    width: 260px;
+}
+.pr-code{
+    font-family: "Poiret One", sans-serif;
+    font-size: 20px;
+    float: left;
+    margin: 2% 0 0 0%;
+    width: 260px;
+}
+.pr-price{
+    font-family: "Poiret One", sans-serif;
+    font-size: 20px;
+    float: left;
+    margin: 2% 0 0 0%;
+    width: 85px;
+}
+.pr-red{
+    float: right;
+    font-size: 24px;
+    color: #FED15C;
+    font-family: "Poiret One", sans-serif;
+    background: none;
+    border: none;
+    margin: 2% 2% 0 0;
+    text-decoration: none;
+    cursor: pointer;    
+}
+.pr-del{
+    float: right;
+    font-size: 24px;
+    color: red;
+    font-family: "Poiret One", sans-serif;
+    background: none;
+    border: none;
+    margin: 2% 3% 0 0;
+    cursor: pointer;
+
+}
+.redprod-ordz{
+    width: 300px;
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poiret One", sans-serif;
+    background-color: #7C5F61;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px 0 15px;
+    margin: 25px 23% 0 0;
+}
+
+.prod-inf{
+
+    background-color: #5A4546;
+    width: 1500px;
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poiret One", sans-serif;
+}
+.prod-id{
+    float: left;
+    margin: 0 0 0 5%;
+    border-right: 1px solid white;
+    padding: 0 1% 0 0px;
+
+}
+.prod-name{
+    float: left;
+    margin: 0 0 0 2%;
+    border-right: 1px solid white;
+    padding: 0 6% 0 0px;
+}
+.prod-code{
+    float: left;
+    margin: 0 0 0 6%;
+    border-right: 1px solid white;
+    padding: 0 5% 0 0px;
+}
+.prod-dey{
+    float: right;
+    margin: 0 9% 0 0;
+}
+.redprod-f{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poiret One", sans-serif;
+    background-color: #5A4546;
+    height: 520px;
+    width: 550px;
+    border-radius: 10px;
+    margin-top: 7%;
+    text-align: center;
+}
+.up-img{
+    width: 300px;
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poiret One", sans-serif;
+    background-color: #7C5F61;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 15px 0 15px;
+    margin: 25px 20% 0 0;
+}
+
+
+.logo-div{
+    margin: 25px 0 0 39%;
+    position: absolute;
+    width: 22%;
+}
+.otz{
+    color: white;
+    float: left;
+    margin: 50px 0px 0px 5%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.faq{
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin: 50px 5% 0 0;
+    text-decoration: none;
+}
+.faqg {
+    color: white;
+    float: right;
+    cursor: pointer;
+    margin: 5% 58% 0 0;
+    text-decoration: none;
+}
+
+/* Доп */
+
+.exit-img{
+    float: right;
+    margin: 51px 20px 0 0px;
+}
+.butt-prof-1{
+    height: 100px;
+    width: 330px;
+    float: right;
+    margin: -84px 70px 0 0px;
+    color: white;
+}
+.prof-img{
+    width: 90px;
+    height: 90px;
+    float: left;
+    border-radius: 10px;
+}
+.prof-name-1{
+    float: right;
+    margin: 10px 80px 0 0;
+    font-size: 36px;
+}
+.prof-balance{
+    font-size: 36px;
+    float: left;
+    color: #FED15C;
+    margin: 0px 0 0 17px;
+}
+
+.profile{
+    width: 500px;
+    text-align: center;
+    height: 590px;
+    padding: 20px;
+    background: #5A4546;
+    margin: 155px auto 0 auto;
+    border-radius: 10px;
+}
+.avatar{
+    width: 310px;
+    margin: 0 auto 0 auto;
+}
+.user-info{
+    height: 71px;
+    width: 178px;
+    float: right;
+    color: white;
+    margin: 0 0px 0 0;
+}
+.us-na{
+    float: left;
+    margin: 0;
+}
+.actions{
+    width: 272px;
+    font-size: 40px;
+    margin: 20px auto 0 auto;
+}
+.bal-up{
+    width: 250px;
+    display: block;
+    background: #7C5F61;
+    border-radius: 10px;
+    color: #FED15C;
+    text-decoration: none;
+    padding: 10px;
+}
+.us-sec{
+    width: 250px;
+    display: block;
+    background: #7C5F61;
+    border-radius: 10px;
+    color: white;
+    margin: 18px 0 0 0;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/* Show */
+
+.user-orinf{
+    color: white;
+    background: #5A4546;
+    width: 430px;
+    height: 70px;
+    padding: 0 50px 0 0;
+    margin: 20px auto;
+}
+.inf-stat{
+    height: 30px;
+    width: 430px;
+}
+.inf-func{
+    height: 30px;
+    width: 430px;
+    margin: 10px 0 0 0;
+}
+.cli-sh{
+    float: left;
+    margin: 0 0 0 54px;
+    font-size: 26px;
+}
+.cli-z-sh{
+    float: left;
+    margin: 0 0 0 62px;
+    font-size: 20px;
+}
+
+.back{
+    position: absolute;
+    margin: 75px 0 0 32%;
+    font-size: 36px;
+    background: none;
+    color: white;
+    border: none;
+    font-family: "Poiret One", sans-serif;
+}
